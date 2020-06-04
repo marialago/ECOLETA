@@ -1,0 +1,38 @@
+:root {
+  --title-color: #322153;
+  --primary-color: #34cb79;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background: #f0f0f5;
+  -webkit-font-smothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+  color: var(--title-color);
+}
+/*BOX MODEL
+
+dimensões
+cores
+bordas... aneiras que o cliente ve
+display
+alinhamentos
+*/
