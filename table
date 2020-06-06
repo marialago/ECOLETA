@@ -51,3 +51,11 @@
     console.log("seus registros");
     console.log(rows);
   });
+  
+    //4 deletar dados
+ db.run(`DELETE FROM places WHERE id = ?`, [], function (err) {
+    if (err) {
+      return console.log(err);
+    }
+    console.log("Registros deletado com sucesso");
+  });
